@@ -1,0 +1,218 @@
+$success : #006400;
+
+
+// Required
+@import "bootstrap-4.4.1/scss/functions";
+@import "bootstrap-4.4.1/scss/variables";
+@import "bootstrap-4.4.1/scss/mixins";
+
+//optional
+@import "bootstrap-4.4.1/scss/utilities";
+@import "bootstrap-4.4.1/scss/reboot";
+@import "bootstrap-4.4.1/scss/grid";
+@import "bootstrap-4.4.1/scss/buttons";
+@import "bootstrap-4.4.1/scss/images";
+@import "bootstrap-4.4.1/scss/jumbotron";
+@import "bootstrap-4.4.1/scss/transitions";
+@import "bootstrap-4.4.1/scss/type";
+@import "sass\bootstrap-4.4.1\site\docs\4.4\components\alerts.md";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+// top carousel images
+.banner-dimension{
+  width: 100%;
+  height: 45rem;
+}
+
+
+//Universal classes
+
+.center{
+  display: block;
+  margin: auto;
+}
+
+.logo{
+  width: 4rem;
+  height: 4rem;
+}
+
+
+// Carousel
+
+.cont{
+  width: 100%;
+}
+
+.cSize{
+  height: 500px;
+  width: 100%;
+}
+
+.clearfix::after{
+  float: none;
+}
+
+// vehicles card
+.vCard{
+  width: 200px;
+  height: 500px;
+  float: left;
+}
+
+.cardContent{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+// Position dropdown on vehicles page
+.filter-dropdown{
+  display: block;
+  margin: auto;
+  width: 25rem;
+}
+
+// small stars
+.smaller{
+  width: 100px;
+  height: 30px;
+}
+
+//icons below vehicle image.
+.icons{
+  width: 1.5em;
+  height: 1.5em;
+}
+
+//footer
+
+.footerImage{
+    height: 16rem;
+    display: block;
+    margin: auto;
+}
+
+.cardClass{
+  // margin-top: 200px;
+  //padding-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.cardText{
+  width: 100%;
+}
+
+.footer-links{
+  color: #DA70D6;
+}
+
+.footer-links:hover{
+  color: #FFFFE0;
+}
+
+.logoImg{
+  width: 3.5em;
+  height: auto;
+}
+
+.instaLogo{
+  width: 2em;
+  height: auto;
+}
+
+#show{
+  margin-bottom: 50em;
+}
+
+#footer{
+  margin-top: 50em;
+}
+
+
+.closeBar{
+  font-size: 40px;
+  cursor: pointer;
+}
+
+// number of days
+.days{
+  width: 85px;
+}
+
+//Book Now Button.
+.book{
+  cursor: pointer;
+}
+
+.bread{
+  margin-left: 250px;
+}
+
+
+// Enter Destination autofill
+
+/* Always set the map height explicitly to define the size of the div
+      * element that contains the map. */
+     #map {
+       width: 90%;
+       height: 400px;
+       display: block;
+       margin: auto;
+     }
+     /* Optional: Makes the sample page fill the window. */
+     html, body {
+       height: 100%;
+       margin: 0;
+       padding: 0;
+     }
+     .controls {
+       margin-top: 10px;
+       border: 1px solid transparent;
+       border-radius: 2px 0 0 2px;
+       box-sizing: border-box;
+       -moz-box-sizing: border-box;
+       height: 32px;
+       outline: none;
+       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+     }
+
+     #origin-input,
+     #destination-input {
+       background-color: #fff;
+       font-family: Roboto;
+       font-size: 15px;
+       font-weight: 300;
+       margin-left: 12px;
+       padding: 0 11px 0 13px;
+       text-overflow: ellipsis;
+       width: 200px;
+     }
+
+     #origin-input:focus,
+     #destination-input:focus {
+       border-color: #4d90fe;
+     }
+
+     #mode-selector {
+       color: #fff;
+       background-color: #4d90fe;
+       margin-left: 12px;
+       padding: 5px 11px 0px 11px;
+     }
+
+     #mode-selector label {
+       font-family: Roboto;
+       font-size: 13px;
+       font-weight: 300;
+     }
